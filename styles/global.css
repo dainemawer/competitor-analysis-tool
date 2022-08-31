@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scroll-lock {
+    @apply after:content-[''] after:absolute after:top-0 after:bottom-0 after:left-0 after:right-0 after:bg-black/50 overflow-hidden
+}
+
+@import "./components/radial-progress-bar";

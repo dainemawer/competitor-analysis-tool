@@ -1,0 +1,22 @@
+.progress-bar {
+    height: 8rem;
+    transform: rotate(-90deg);
+    width: 8rem;
+}
+
+.progress-bar-background {
+    fill: none;
+    stroke: #e2eff0;
+    stokr-width: 1.8;
+}
+
+.progress-bar-progress {
+    fill: none;
+    stroke: rgb(22 163 74);
+    stroke: rgb(22 163 74);
+    stroke-dasharray: 100 100;
+    stroke-dashoffset: 100;
+    stroke-linecap: round;
+    stroke-width: 1.8;
+    transition: stroke-dashoffset 1s ease-in-out;
+}
